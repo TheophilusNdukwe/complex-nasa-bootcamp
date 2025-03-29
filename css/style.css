@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+header {
+    font-size: 3em;
+    text-align: center;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgb(0, 17, 255);
+}
+
+ul {
+    background: rgba(18, 17, 17, 0);
+    box-shadow: 0 8px 32px 0 rgb(255, 0, 0);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(23, 20, 20, 0.18);
+    width: max-content;
+    margin: auto;
+}
+
+li {
+    list-style: square;
+    background: rgba(214, 22, 22, 0);
+    box-shadow: 0 8px 32px 0 rgba(4, 121, 254, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    margin-bottom: 1%;
+
+}
