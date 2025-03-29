@@ -22,7 +22,7 @@ let url = `https://data.nasa.gov/resource/gvk9-iz74.json`
                     let fahrenheit = (data.data.currently.temperature * 9 / 5) + 32
                     let ul = document.getElementById('list') // Get the ul element
                     let li = document.createElement('li') // Create a new li element
-                    let text = document.createTextNode(` ${element.center} Location: ${element.city}, ${element.state} Temperature: ${fahrenheit}`) // Create a text node
+                    let text = document.createTextNode(`${element.center} ${element.facility} Location: ${element.city}, ${element.state} Temperature: ${fahrenheit}`) // Create a text node
                     li.appendChild(text) // Append the text node to the li
                     ul.appendChild(li)// Append the li to the ul  
             })

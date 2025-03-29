@@ -5,6 +5,6 @@
 ### This project displays all Nasa facilities, their locations and the weather at the location.
 
 ```
-I chose to display the information is a list format for now and then later I can go back and change the styling.
+I chose to display the information in list format for now and then later I can go back and change the styling.
 
 ```
